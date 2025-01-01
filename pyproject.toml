@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "simple_model"
-authors = [{ name = "Batkhuu Byambajav", email = "batkhuu10@gmail.com" }]
+authors = [{ name = "Asadbek Kiyomov", email = "asadbey0331@gmail.com" }]
 description = "This is a template module for AI/ML model projects."
 readme = "README.md"
 requires-python = ">=3.9,<4.0"
@@ -47,8 +47,8 @@ optional-dependencies.extra = { file = [
 # optional-dependencies.gpu = { file = ["./requirements/requirements.gpu.txt"] }
 
 [project.urls]
-Homepage = "https://github.com/bybatkhuu/model.python-template"
-Documentation = "https://bybatkhuu.github.io/model.python-template"
-Repository = "https://github.com/bybatkhuu/model.python-template.git"
-Issues = "https://github.com/bybatkhuu/model.python-template/issues"
-Changelog = "https://github.com/bybatkhuu/model.python-template/CHANGELOG.md"
+Homepage = "https://github.com/akiyomov/model.python-template"
+Documentation = "https://akiyomov.github.io/model.python-template"
+Repository = "https://github.com/akiyomov/model.python-template.git"
+Issues = "https://github.com/akiyomov/model.python-template/issues"
+Changelog = "https://github.com/akiyomov/model.python-template/CHANGELOG.md"

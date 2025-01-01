@@ -20,20 +20,20 @@ cd ~/workspaces/projects
 **OPTION A.** Clone the repository:
 
 ```sh
-git clone https://github.com/bybatkhuu/model.python-template.git && \
+git clone https://github.com/akiyomov/model.python-template.git && \
     cd model.python-template
 ```
 
 **OPTION B.** Clone the repository (for **DEVELOPMENT**: git + ssh key):
 
 ```sh
-git clone git@github.com:bybatkhuu/model.python-template.git && \
+git clone git@github.com:akiyomov/model.python-template.git && \
     cd model.python-template
 ```
 
 **OPTION C.** Download source code:
 
-1. Download archived **zip** file from [**releases**](https://github.com/bybatkhuu/model.python-template/releases).
+1. Download archived **zip** file from [**releases**](https://github.com/akiyomov/model.python-template/releases).
 2. Extract it into the projects directory.
 
 ## 2. 📦 Install the module
@@ -44,7 +44,7 @@ git clone git@github.com:bybatkhuu/model.python-template.git && \
 **OPTION A.** Install directly from **git** repository:
 
 ```sh
-pip install git+https://github.com/bybatkhuu/model.python-template.git
+pip install git+https://github.com/akiyomov/model.python-template.git
 ```
 
 **OPTION B.** Install from the downloaded **source code**:
@@ -64,7 +64,7 @@ pip install -r ./requirements/requirements.dev.txt
 
 **OPTION D.** Install from **pre-built package** files (for **PRODUCTION**):
 
-1. Download **`.whl`** or **`.tar.gz`** file from [**releases**](https://github.com/bybatkhuu/model.python-template/releases).
+1. Download **`.whl`** or **`.tar.gz`** file from [**releases**](https://github.com/akiyomov/model.python-template/releases).
 2. Install with pip:
 
 ```sh

@@ -1,8 +1,8 @@
 # Model (AI/ML) Template
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit)
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/bybatkhuu/model.python-template/2.build-publish.yml?logo=GitHub)](https://github.com/bybatkhuu/model.python-template/actions/workflows/2.build-publish.yml)
-[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/bybatkhuu/model.python-template?logo=GitHub&color=blue)](https://github.com/bybatkhuu/model.python-template/releases)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/akiyomov/model.python-template/2.build-publish.yml?logo=GitHub)](https://github.com/akiyomov/model.python-template/actions/workflows/2.build-publish.yml)
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/akiyomov/model.python-template?logo=GitHub&color=blue)](https://github.com/akiyomov/model.python-template/releases)
 
 This is a template repository for AI/ML model projects.
 
@@ -27,12 +27,12 @@ This is a template repository for AI/ML model projects.
 
 - You can use this template repository as reference to create a new repository with the same structure or clone the repository to start a new project. It will help you to organize your project structure and files. It works out of the box for most of the AI/ML projects.
 - You can customize (remove, modify or add) the files and directories as needed to meet your project requirements.
-- If you want to use the template repository directly, just click the **[Use this template](https://github.com/new?template_name=model.python-template&template_owner=bybatkhuu)** button and follow the instructions.
-- You can use **cookiecutter** to generate a new project from **[cookiecutter](https://github.com/bybatkhuu/model.python-template/tree/cookiecutter)** branch:
+- If you want to use the template repository directly, just click the **[Use this template](https://github.com/new?template_name=model.python-template&template_owner=akiyomov)** button and follow the instructions.
+- You can use **cookiecutter** to generate a new project from **[cookiecutter](https://github.com/akiyomov/model.python-template/tree/cookiecutter)** branch:
 
     ```sh
     # Clone the cookiecutter branch:
-    git clone -b cookiecutter https://github.com/bybatkhuu/model.python-template.git
+    git clone -b cookiecutter https://github.com/akiyomov/model.python-template.git
 
     # Install cookiecutter:
     pip install cookiecutter
@@ -80,20 +80,20 @@ cd ~/workspaces/projects
 **OPTION A.** Clone the repository:
 
 ```sh
-git clone https://github.com/bybatkhuu/model.python-template.git && \
+git clone https://github.com/akiyomov/model.python-template.git && \
     cd model.python-template
 ```
 
 **OPTION B.** Clone the repository (for **DEVELOPMENT**: git + ssh key):
 
 ```sh
-git clone git@github.com:bybatkhuu/model.python-template.git && \
+git clone git@github.com:akiyomov/model.python-template.git && \
     cd model.python-template
 ```
 
 **OPTION C.** Download source code:
 
-1. Download archived **zip** file from [**releases**](https://github.com/bybatkhuu/model.python-template/releases).
+1. Download archived **zip** file from [**releases**](https://github.com/akiyomov/model.python-template/releases).
 2. Extract it into the projects directory.
 
 ### 3. 📦 Install the package
@@ -104,7 +104,7 @@ git clone git@github.com:bybatkhuu/model.python-template.git && \
 **OPTION A.** Install directly from **GitHub** repository:
 
 ```sh
-pip install git+https://github.com/bybatkhuu/model.python-template.git
+pip install git+https://github.com/akiyomov/model.python-template.git
 ```
 
 **OPTION B.** Install from the downloaded **source code**:
@@ -124,7 +124,7 @@ pip install -r ./requirements/requirements.dev.txt
 
 **OPTION D.** Install from **pre-built package** files (for **PRODUCTION**):
 
-1. Download **`.whl`** or **`.tar.gz`** file from [**releases**](https://github.com/bybatkhuu/model.python-template/releases).
+1. Download **`.whl`** or **`.tar.gz`** file from [**releases**](https://github.com/akiyomov/model.python-template/releases).
 2. Install with pip:
 
 ```sh
@@ -150,7 +150,7 @@ cp -r ./src/simple_model /some/path/project/
 
 ### Simple
 
-[**`examples/simple/main.py`**](https://github.com/bybatkhuu/model.python-template/blob/main/examples/simple/main.py):
+[**`examples/simple/main.py`**](https://github.com/akiyomov/model.python-template/blob/main/examples/simple/main.py):
 
 ```python
 ## Standard libraries
@@ -228,7 +228,7 @@ if __name__ == "__main__":
 
 ## ⚙️ Configuration
 
-[**`templates/configs/config.yml`**](https://github.com/bybatkhuu/model.python-template/blob/main/templates/configs/config.yml):
+[**`templates/configs/config.yml`**](https://github.com/akiyomov/model.python-template/blob/main/templates/configs/config.yml):
 
 ```yaml
 simple_model:                                       # Just an example to group the configs (Not necessary)
@@ -239,7 +239,7 @@ simple_model:                                       # Just an example to group t
 
 ### 🌎 Environment Variables
 
-[**`.env.example`**](https://github.com/bybatkhuu/model.python-template/blob/main/.env.example):
+[**`.env.example`**](https://github.com/akiyomov/model.python-template/blob/main/.env.example):
 
 ```sh
 # ENV=development
@@ -297,47 +297,47 @@ mkdocs build
 
 ## 📚 Documentation
 
-- [Docs](https://github.com/bybatkhuu/model.python-template/blob/main/docs)
-- [Home](https://github.com/bybatkhuu/model.python-template/blob/main/docs/README.md)
+- [Docs](https://github.com/akiyomov/model.python-template/blob/main/docs)
+- [Home](https://github.com/akiyomov/model.python-template/blob/main/docs/README.md)
 
 ### Getting Started
 
-- [Prerequisites](https://github.com/bybatkhuu/model.python-template/blob/main/docs/pages/getting-started/prerequisites.md)
-- [Installation](https://github.com/bybatkhuu/model.python-template/blob/main/docs/pages/getting-started/installation.md)
-- [Configuration](https://github.com/bybatkhuu/model.python-template/blob/main/docs/pages/getting-started/configuration.md)
-- [Examples](https://github.com/bybatkhuu/model.python-template/blob/main/docs/pages/getting-started/examples.md)
-- [Error Codes](https://github.com/bybatkhuu/model.python-template/blob/main/docs/pages/getting-started/error-codes.md)
+- [Prerequisites](https://github.com/akiyomov/model.python-template/blob/main/docs/pages/getting-started/prerequisites.md)
+- [Installation](https://github.com/akiyomov/model.python-template/blob/main/docs/pages/getting-started/installation.md)
+- [Configuration](https://github.com/akiyomov/model.python-template/blob/main/docs/pages/getting-started/configuration.md)
+- [Examples](https://github.com/akiyomov/model.python-template/blob/main/docs/pages/getting-started/examples.md)
+- [Error Codes](https://github.com/akiyomov/model.python-template/blob/main/docs/pages/getting-started/error-codes.md)
 
-### [API Documentation](https://github.com/bybatkhuu/model.python-template/blob/main/docs/pages/api-docs/README.md)
+### [API Documentation](https://github.com/akiyomov/model.python-template/blob/main/docs/pages/api-docs/README.md)
 
 ### Development
 
-- [Test](https://github.com/bybatkhuu/model.python-template/blob/main/docs/pages/dev/test.md)
-- [Build](https://github.com/bybatkhuu/model.python-template/blob/main/docs/pages/dev/build.md)
-- [Docs](https://github.com/bybatkhuu/model.python-template/blob/main/docs/pages/dev/docs.md)
-- [CI/CD](https://github.com/bybatkhuu/model.python-template/blob/main/docs/pages/dev/cicd.md)
-- [Scripts](https://github.com/bybatkhuu/model.python-template/blob/main/docs/pages/dev/scripts/README.md)
-- [File Structure](https://github.com/bybatkhuu/model.python-template/blob/main/docs/pages/dev/file-structure.md)
-- [Sitemap](https://github.com/bybatkhuu/model.python-template/blob/main/docs/pages/dev/sitemap.md)
-- [Contributing](https://github.com/bybatkhuu/model.python-template/blob/main/docs/pages/dev/contributing.md)
-- [Roadmap](https://github.com/bybatkhuu/model.python-template/blob/main/docs/pages/dev/roadmap.md)
+- [Test](https://github.com/akiyomov/model.python-template/blob/main/docs/pages/dev/test.md)
+- [Build](https://github.com/akiyomov/model.python-template/blob/main/docs/pages/dev/build.md)
+- [Docs](https://github.com/akiyomov/model.python-template/blob/main/docs/pages/dev/docs.md)
+- [CI/CD](https://github.com/akiyomov/model.python-template/blob/main/docs/pages/dev/cicd.md)
+- [Scripts](https://github.com/akiyomov/model.python-template/blob/main/docs/pages/dev/scripts/README.md)
+- [File Structure](https://github.com/akiyomov/model.python-template/blob/main/docs/pages/dev/file-structure.md)
+- [Sitemap](https://github.com/akiyomov/model.python-template/blob/main/docs/pages/dev/sitemap.md)
+- [Contributing](https://github.com/akiyomov/model.python-template/blob/main/docs/pages/dev/contributing.md)
+- [Roadmap](https://github.com/akiyomov/model.python-template/blob/main/docs/pages/dev/roadmap.md)
 
 ### Research
 
-- [Reports](https://github.com/bybatkhuu/model.python-template/blob/main/docs/pages/research/reports.md)
-- [Benchmarks](https://github.com/bybatkhuu/model.python-template/blob/main/docs/pages/research/benchmarks.md)
-- [References](https://github.com/bybatkhuu/model.python-template/blob/main/docs/pages/research/references.md)
+- [Reports](https://github.com/akiyomov/model.python-template/blob/main/docs/pages/research/reports.md)
+- [Benchmarks](https://github.com/akiyomov/model.python-template/blob/main/docs/pages/research/benchmarks.md)
+- [References](https://github.com/akiyomov/model.python-template/blob/main/docs/pages/research/references.md)
 
-### [Release Notes](https://github.com/bybatkhuu/model.python-template/blob/main/docs/pages/release-notes.md)
+### [Release Notes](https://github.com/akiyomov/model.python-template/blob/main/docs/pages/release-notes.md)
 
-### [Blog](https://github.com/bybatkhuu/model.python-template/blob/main/docs/pages/blog/index.md)
+### [Blog](https://github.com/akiyomov/model.python-template/blob/main/docs/pages/blog/index.md)
 
 ### About
 
-- [FAQ](https://github.com/bybatkhuu/model.python-template/blob/main/docs/pages/about/faq.md)
-- [Authors](https://github.com/bybatkhuu/model.python-template/blob/main/docs/pages/about/authors.md)
-- [Contact](https://github.com/bybatkhuu/model.python-template/blob/main/docs/pages/about/contact.md)
-- [License](https://github.com/bybatkhuu/model.python-template/blob/main/docs/pages/about/license.md)
+- [FAQ](https://github.com/akiyomov/model.python-template/blob/main/docs/pages/about/faq.md)
+- [Authors](https://github.com/akiyomov/model.python-template/blob/main/docs/pages/about/authors.md)
+- [Contact](https://github.com/akiyomov/model.python-template/blob/main/docs/pages/about/contact.md)
+- [License](https://github.com/akiyomov/model.python-template/blob/main/docs/pages/about/license.md)
 
 ---
 
